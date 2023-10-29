@@ -1,0 +1,714 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%
+}
+.header{
+    position: relative;
+    height: 90vh;
+    background:url(../img/Children\ College-Building.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    /* background-color: aqua; */
+    max-width: 800px;
+    width: 60%;
+    margin: 0 auto;
+}
+/* .nav-bar{
+    border: 2px solid #000000;
+} */
+
+
+.header .navbar .heading ,.INTERIOR{
+    float: left;
+    padding: 0.1rem;
+    margin-top: 0.5rem;
+    
+}
+.header .navbar .items , .floor{
+    float: right;
+    letter-spacing: 0.2em;
+    /* display: inline-block; */
+    margin-top: 0.5rem;
+    padding-right: 1rem;
+    
+}
+
+.header .heading,
+.header .navbar a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 2px solid black;
+    background-color: white;
+}
+.school{
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.btn{
+    border-radius: 100px;
+    background-color: #f4f4f4;
+    text-decoration: none;
+    width: 1rem;
+    display: block;
+    width: 20rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;   
+}
+.bt{
+    text-transform: uppercase;
+    word-spacing: 0.5rem;
+    text-decoration: none;
+}
+.ct{
+    margin-top: .25rem;
+}
+
+.text-light{
+    color: black;
+    
+    
+}
+
+
+
+
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+
+
+
+/* .navbar::after{
+    display: inline-block;
+    content: "";
+    clear: both;
+
+} */
+.classfix{
+    clear: both;
+}
+/* .clearfix{
+    clear: both;
+} */
+/* .school::after{
+    content: "";
+    display: inline-block;
+    clear: both;
+} */
+/* ##############################EXPLORE############################### */
+.nav-bar{
+    background-color: navy;
+}
+.white {
+    color: white;
+}
+
+
+
+/* ul .first{
+    display: inline-block;
+} */
+.first a:hover{
+    color: #000000;
+    border-bottom:2px solid white ;
+}
+.ground{
+    position: relative;
+    height: 80vh;
+    background: url(../img/Children\ College-College\ Building\ Inner\ View.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.border{
+    position: absolute;
+    /* border: 2px solid red; */
+    background-color: lightgoldenrodyellow;
+    opacity: 0.375;
+    backface-visibility: visible;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hh{
+    text-transform: uppercase;
+}
+/* ######################################beloww################################## */
+.section{
+    /* margin: 5rem; */
+    background: #ddd;
+    padding: 10rem 0;
+    
+}
+.row{
+    margin: 10rem 0;
+    height: 30rem;
+}
+.row1 .img-box, .row2 .text-box {
+    float: left;
+    width: 50%;
+}
+.row2 .img-box , .row1 .text-box{
+    float: right;
+    width: 50%;
+}
+.row2{
+    margin-top:10rem ;
+}
+.row .img-box{
+    
+    height: 100%;
+}
+.row .text-box{
+    padding: 5rem 0;
+    text-align: center;
+}
+.row1 .img-box{
+    /* background: url(../img/manager.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.row2 .img-box{
+    /* background: url(../img/download.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+
+
+.text-dark{
+    color: #000;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    padding:1.2rem 0;
+}
+.row{
+    box-shadow: 0px 0px 30px #616b7a;
+}
+.section .row .btn-prime{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 100px;
+    width: 10rem;
+    height:3rem;
+    padding-top:1rem;
+    background-color: #cc76b5;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+/* #########################feature######################## */
+.feature{
+    /* border: 2px solid black; */
+    margin: 10rem 0;
+}
+.box-wrapper{
+    /* border: 2px solid red; */
+    height: 20rem;
+    text-align: center;
+}
+.box{
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    padding: 2rem 0;
+}
+.box1 , .box3{
+    background-color: #fc0e19;
+}
+.box2{
+    background-color: skyblue;
+}
+.box-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* #######################foooter########################## */
+.footer{
+    background-color: lightslategrey;
+}
+.icon{
+    text-align: center;
+    padding: 1rem 0;
+   
+    letter-spacing: 0.5rem;
+}
+.icon .h3{
+    margin-top: 0.3rem;
+    letter-spacing: 0;
+}
+.twitter , .instagram , .facebook{
+    text-decoration: none;
+    
+}
+.footer .icon a:visited{
+    color: black;
+}
+
+/* #######################Explor############################ */
+
+.sexy{
+    background-color:#ddd ;
+    margin: 10rem 0;
+}
+.row100{
+    /* border: 2px solid red; */
+    background-color: #f4f4f4;
+    height: 20rem;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.226);
+}
+.row51 .img-bag ,.row52 .text-bag , .row53 .img-bag{
+    float: left;
+    width: 50%;
+}
+.row52 .img-bag ,.row51 .text-bag ,.row53 .text-bag{
+    float: right;
+    width: 50%;
+}
+.row51 .img-bag , .row52 .img-bag , .row53 .img-bag{
+    height: 100%;
+}
+.row51 .text-bag , .row52 .text-bag , .row53 .text-bag{
+    height: 100%;
+}
+.row51 .img-bag{
+    /* background: url(../img/classroom.jpg); */
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.row52 .img-bag{
+    /* background: url(../img/busess.jpg); */
+    height: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.row53 .img-bag{
+    /* background: url(../img/playground.jpg); */
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.row100{
+    margin-bottom: 10rem;
+}
+.row51 .text-bag{
+    padding: 4.5rem 1.5rem;
+    text-align: center;
+}
+.row52 .text-bag{
+    padding: 4.5rem 1.5rem;
+    text-align: center;
+}
+.row53 .text-bag{
+    padding: 4.5rem 1.5rem;
+    text-align: center;
+}
+
+
+
+
+
+/* #############################about page########################### */
+.about{
+    padding-top: 2rem;
+}
+.text-aline{
+    text-align: center;
+    background-color: navy;
+    color: #f4f4f4;
+    
+}
+.text-red{
+    text-transform: uppercase;
+    color: #fc0e19;
+    border-bottom: 4px solid red;
+}
+.paragraph{
+    /* font-weight: 700; */
+    font-family: cursive;
+
+}
+.left .ul .li , .right .ul .li{
+    list-style-type: none;
+    display: block;
+    line-height: 2.5rem;
+}
+.lists{
+   /* border: 2px solid red; */
+    padding: 2rem 10rem;
+    /* text-align: center; */
+   
+}
+.lists::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+.lists .left{
+    float: left;
+    width: 50%;
+}
+.lists .right{
+    float: right;
+    width: 50%;
+}
+.li::before{
+    content:"\2713";
+    padding-right: 0.5rem;
+    color: #fc0e19;
+    font-weight: 900;
+}
+
+.value{
+   
+    width: 25%;
+    float: left;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1.2rem;
+    line-height: 1.9rem;
+    font-size: larger;
+
+}
+.value1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+span{
+    color: #fc0e19;
+    font-weight: bolder;
+    
+}
+.last1{
+    border: 2px solid red;
+    background-color: #fc0e19;
+    box-shadow: 0.5rem 0.5rem 1rem black;
+}
+.last1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.last{
+    float: left;
+}
+.link{
+    width:40%;
+    /* text-align: right; */
+    /* padding: 0.3rem 2.5rem; */
+    display: block;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2.5px solid white;
+    
+    letter-spacing: 0.3rem;
+    margin-top: 1rem;
+}
+
+.make-contact{
+    width: 60%;
+    /* padding: 3.23rem; */
+    margin-top:1rem;
+    text-align: center;
+    
+}
+.last1 .link a{
+    text-decoration: none ;
+    color: #000;
+    width: 20%;
+
+     
+}
+/* ##############################contact us################################## */
+
+.reach-us{
+    height: 53.61rem;
+    /* border: 2px dotted red; */
+    background-color: #ddd;
+    margin-top: 5rem;
+    width: 50%;
+    padding-left: 2.5rem;
+}
+img{
+    object-position:center ;
+    width: 100%;
+    object-fit: cover;
+    /* background-position: center; */
+}
+.reach-us i{
+    color: #fc0e19;
+    font-weight: bold;
+    font-size: larger;
+}
+.location , .email , .phone , .address{
+    padding: 2rem;
+    text-transform: uppercase;
+}
+
+.text{
+    text-transform: uppercase;
+    padding-top:1.5rem ;
+}
+.reach-us{
+    float: left;
+    padding-left: 1.2rem;
+}
+.location p , .email p , .phone  p , .address p{
+    padding-top:1rem;
+}
+/* #################################right side################### */
+.msg{
+    padding: 1rem;
+    width: 50%;
+    margin-top: 5rem;
+    border: 2px dotted black;
+    float: right;
+    margin-right: -0.5rem;
+    background-color: #ddd;
+    /* height: 50rem; */
+   
+    
+}
+.msg input{
+    display: block;
+}
+.msg label{
+    display: block;
+    text-transform: uppercase;
+    
+}
+.msg input{
+    width: 100%;
+
+    padding: 0.5rem;
+}
+.msg h2{
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.contact-form , .login-form{
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+.Lorem{
+    margin-top: 3rem;
+    height: 100%;
+}
+.msg textarea{
+    width: 100%;
+}
+.form-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background: #fc0e19;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+}
+/* ####################################login page############################## */
+.login-form {
+    /* height: 30rem; */
+    border: 2px solid black;
+    margin-top: 2rem;
+    padding:0  3rem;
+    padding-top: 2rem;
+}
+.login-form input{
+    padding: 1rem;
+    line-height: 1rem;
+    width: 100%;
+}
+.login-page-btn{
+    display: inline-block;
+    /* border: 2px solid green; */
+    /* padding-top:2rem; */
+    word-spacing: 0.8rem;
+
+}
+.login-form::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.login-form label{
+    padding-bottom: 0.5rem;
+    line-height: 2rem;
+}
+.login-form .input label::after{
+    content: "*";
+    color: #fc0e19;
+    font-weight: bold;
+
+}
+.login-form h3::after{
+    content: "*";
+    color: #fc0e19;
+    font-weight: bold;
+
+}
+/* #######################media queriess########################## */
+@media (max-width:500px){
+    html{
+        font-size: 50%;
+    }    
+    .navbar .heading , .navbar .items{
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .row{
+        height: 50%;
+        width: 100%;
+    }
+    .row .img-box,
+    .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+    .row100{
+        height: 50%;
+        width: 100%;
+    }
+    .row100 .img-bag,
+    .row100 .text-bag{
+        float: none;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.226);
+    }
+    .row100 .text-bag{
+        padding: 0rem;
+        font-size: 1.5rem;
+    }
+    .items{
+        text-align: center;
+    }
+    
+    
+    
+    
+    .feature .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+        
+        box-shadow: 0px 0px 20px #616b7a ;
+    }
+    .feature .box2, 
+    .feature .box3{
+        margin-top: 7rem;
+    }
+    .feature .row5{
+        float: none;
+    }
+    .box-wrapper{
+       
+        height: auto;
+    }
+    .header{
+        height: 90vh;
+    }
+    .ground{
+        height: 80vh;
+    }
+    .last{
+        float: none;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .link{
+        width: 50%;
+        text-align: center;
+    }
+    
+    .center{
+     margin: 0 auto;
+    }
+    .lists .left,
+    .lists .right{
+        float: none;
+        width: 100%;
+        height: auto;
+        display: inline;
+    }
+    .lists{
+        padding: 0;
+        font-weight: 400;
+        
+        background-color: lightblue;
+    }
+    .location , .email , .phone , .address{
+        padding: 0rem;
+    }
+    .container{
+        font-size: 1.6rem;
+    }
+
+    .right{
+        float: none;
+        width: 100%;
+    }
+    .value{
+        float: none;
+        width: 100%;
+        
+    }
+    .email{
+        word-break: break-all;
+    }
+    .reach-us ,
+    .msg{
+        float: none;
+        width:100%;
+        height: auto;
+    }
+}
